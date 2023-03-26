@@ -1,0 +1,99 @@
+/* ***************************
+***************************
+
+ 05- CockTail ProJect
+***************************
+*************************** */
+/* 
+====== 
+Navbar
+======
+*/
+.nav__header {
+  background: var(--white);
+  height: 5rem;
+  display: flex;
+  align-items: center;
+  border-bottom: 2px solid var(--clr-grey-6);
+  box-shadow: var(--lightShadow);
+  padding: 4rem;
+}
+.nav__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: var(--smallWidth);
+  margin: 0 auto;
+  max-width: var(--fullWidth);
+}
+.navbar {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+.navbar__item a {
+  text-transform: capitalize;
+  /* display: inline-block; */
+  font-weight: bold;
+  margin-right: 0.5rem;
+  font-weight: 600;
+  letter-spacing: 2px;
+  font-size: 3rem;
+  padding: 0.25rem 0.5rem;
+  transition: var(--mainTransition);
+  color: #555;
+}
+.navbar__item a:hover {
+  color: var(--clr-grey-6);
+}
+.logo {
+  width: 20rem;
+  display: block;
+  height: auto;
+}
+/* 
+====== 
+About Page
+======
+*/
+
+.about__page {
+  padding: 20rem 0;
+  text-align: center;
+  font-weight: 700;
+}
+.about__page h1 {
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.about__page p {
+  font-size: 3rem;
+  padding: 2rem;
+  font-weight: 400;
+  letter-spacing: 1px;
+  color: #666;
+  margin: 0 auto;
+}
+
+/* 
+====== 
+Error Page
+======
+*/
+.Error {
+  padding: 20rem 0;
+  text-align: center;
+  font-weight: 700;
+}
+.Error a .btn {
+  font-size: 3rem;
+  padding: 2rem 4rem;
+  margin-top: 5rem;
+  text-transform: uppercase;
+  background-color: var(--mainRed);
+  transition: all 0.3s ease-in;
+}
+.Error a .btn:hover {
+  background-color: rgb(252, 79, 79);
+  color: black;
+}
